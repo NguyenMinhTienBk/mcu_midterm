@@ -4,3 +4,5 @@
 1667626824388	Delete resource 'midterm/Core/Src/fsm_automatic_2.c'
 1667626827953	Delete resource 'midterm/Core/Src/fsm_mode.c'
 1667626831460	Delete resource 'midterm/Core/Src/fsm_manual.c'
+1667671859220	Delete resource 'midterm/Core/Inc/input_processing.h'
+1667671864531	Delete resource 'midterm/Core/Src/input_processing.c'
