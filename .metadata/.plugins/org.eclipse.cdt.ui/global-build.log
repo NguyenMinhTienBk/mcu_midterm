@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 12:40:43 **** Incremental Build of configuration Debug for project midterm ****
+=======
+01:34:07 **** Incremental Build of configuration Debug for project midterm ****
+>>>>>>> Stashed changes
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
 arm-none-eabi-gcc "../Core/Src/fsm_simple_button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_simple_button.d" -MT"Core/Src/fsm_simple_button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_simple_button.o"
@@ -22,7 +26,11 @@ arm-none-eabi-objdump -h -S  midterm.elf  > "midterm.list"
 arm-none-eabi-objcopy  -O ihex  midterm.elf  "midterm.hex"
 arm-none-eabi-objcopy  -O binary  midterm.elf  "midterm.bin"
    text	   data	    bss	    dec	    hex	filename
+<<<<<<< Updated upstream
    9376	     92	   1708	  11176	   2ba8	midterm.elf
+=======
+   9696	     92	   1708	  11496	   2ce8	midterm.elf
+>>>>>>> Stashed changes
 Finished building: default.size.stdout
  
 Finished building: midterm.bin
