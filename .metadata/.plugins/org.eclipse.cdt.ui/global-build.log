@@ -1,4 +1,4 @@
-01:29:12 **** Incremental Build of configuration Debug for project midterm ****
+02:08:28 **** Incremental Build of configuration Debug for project midterm ****
 make -j12 all 
 arm-none-eabi-size   midterm.elf 
    text	   data	    bss	    dec	    hex	filename
