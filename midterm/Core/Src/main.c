@@ -27,6 +27,7 @@
 #include <fsm_simple_button.h>
 #include <software_timer.h>
 #include "led_display.h"
+#include "input_reading.h"
 
 /* USER CODE END Includes */
 
@@ -106,10 +107,10 @@ int main(void)
   while (1)
   {
 	  fsm_simple_buttons_run();
-	  if (timer0_flag == 1){
-		  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
-		  setTimer0(1000);
-	  }
+//	  if (timer0_flag == 1){
+//		  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+//		  setTimer0(1000);
+//	  }
 
     /* USER CODE END WHILE */
 

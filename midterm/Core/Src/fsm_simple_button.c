@@ -61,14 +61,14 @@ void fsm_simple_buttons_run(){
 		}
 		if (isButtonflag(but2) == 1){
 			status = STA_INC;
-			counter ++;
+			counter++;
 			if (counter > 9 ) counter = 0;
 			display7SEG(counter);
 			setTimer1(10000);// add new change state machine step3
 		}
 		if (isButtonflag(but3) == 1){
 			status = STA_DEC;
-			counter --;
+			counter--;
 			if (counter < 0 ) counter = 9;
 			display7SEG(counter);
 			setTimer1(10000);// add new change state machine step3
@@ -98,7 +98,7 @@ void fsm_simple_buttons_run(){
 		}
 		if (isButtonflag(but3) == 1){
 			status = STA_DEC;
-			counter --;
+			counter--;
 			if (counter < 0 ) counter = 9;
 			display7SEG(counter);
 			setTimer1(10000);// add new change state machine step3
@@ -119,14 +119,14 @@ void fsm_simple_buttons_run(){
 		}
 		if (isButtonflag(but2) == 1){
 			status = STA_INC;
-			counter ++;
+			counter++;
 			if (counter > 9 ) counter = 0;
 			display7SEG(counter);
 			setTimer1(10000);// add new change state machine step3
 		}
 		if (isButtonflag(but3) == 1){
 			status = STA_DEC;
-			counter --;
+			counter--;
 			if (counter < 0 ) counter = 9;
 			display7SEG(counter);
 			setTimer1(10000);// add new change state machine step3

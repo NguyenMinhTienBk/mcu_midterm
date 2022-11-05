@@ -11,6 +11,7 @@
 #include "global.h"
 #include "software_timer.h"
 #include "button.h"
+#include "input_reading.h"
 #include "led_display.h"
 void fsm_simple_buttons_run();
 
