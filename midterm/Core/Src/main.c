@@ -98,7 +98,7 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim2);
 
   status = INIT;
-  //setTimer0(10);
+  setTimer0(1000);
 
   /* USER CODE END 2 */
 
@@ -107,6 +107,10 @@ int main(void)
   while (1)
   {
 	  fsm_simple_buttons_run();
+//	  if (timer0_flag == 1){
+//		  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+//		  setTimer0(1000);
+//	  }
 
     /* USER CODE END WHILE */
 

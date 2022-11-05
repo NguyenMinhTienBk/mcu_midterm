@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 main.c:71:5:main	8	static
 main.c:121:6:SystemClock_Config	72	static
@@ -5,9 +6,14 @@ main.c:157:13:MX_TIM2_Init	32	static
 main.c:202:13:MX_GPIO_Init	32	static
 main.c:249:6:Error_Handler	4	static,ignoring_inline_asm
 =======
+=======
+>>>>>>> b8fd62af37f8ac0f331b04391464c5b5874a2529
 main.c:72:5:main	8	static
 main.c:126:6:SystemClock_Config	72	static
 main.c:162:13:MX_TIM2_Init	32	static
 main.c:207:13:MX_GPIO_Init	32	static
 main.c:254:6:Error_Handler	4	static,ignoring_inline_asm
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> b8fd62af37f8ac0f331b04391464c5b5874a2529

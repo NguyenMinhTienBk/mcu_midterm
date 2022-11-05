@@ -15,8 +15,11 @@
 		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.cdt.internal.ui.text.COutlineInformationControlDIALOG_USE_PERSISTED_LOCATION" value="true"/>
 	</section>
+<<<<<<< HEAD
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
 		<item key="size.width" value="595"/>
 		<item key="size.height" value="180"/>
 	</section>
+=======
+>>>>>>> b8fd62af37f8ac0f331b04391464c5b5874a2529
 </section>

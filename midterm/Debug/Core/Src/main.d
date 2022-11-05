@@ -25,9 +25,15 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Core/Inc/button.h ../Core/Inc/global.h ../Core/Inc/main.h \
  ../Core/Inc/fsm_simple_button.h ../Core/Inc/software_timer.h \
+<<<<<<< HEAD
  ../Core/Inc/button.h ../Core/Inc/led_display.h \
  ../Core/Inc/software_timer.h ../Core/Inc/led_display.h \
  ../Core/Inc/input_reading.h
+=======
+ ../Core/Inc/button.h ../Core/Inc/input_reading.h \
+ ../Core/Inc/led_display.h ../Core/Inc/software_timer.h \
+ ../Core/Inc/led_display.h ../Core/Inc/input_reading.h
+>>>>>>> b8fd62af37f8ac0f331b04391464c5b5874a2529
 
 ../Core/Inc/main.h:
 
@@ -90,6 +96,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/software_timer.h:
 
 ../Core/Inc/button.h:
+
+../Core/Inc/input_reading.h:
 
 ../Core/Inc/led_display.h:
 

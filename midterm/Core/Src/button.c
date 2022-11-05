@@ -30,13 +30,13 @@ int button_flag[NUMBER_OF_BUTTON] = {0}; // idx: 0 save flag of button RESET
 //	return 0;
 //}
 
-int isButtonflag(int index){
-	if (button_flag[index] == 1){
-		button_flag[index] = 0;
-		return 1;
-	}
-	return 0;
-}
+//int isButtonflag(int index){
+//	if (button_flag[index] == 1){
+//		button_flag[index] = 0;
+//		return 1;
+//	}
+//	return 0;
+//}
 
 
 void subKeyProcess(){
@@ -76,7 +76,11 @@ void getKeyInput(){
 				if (i == 0) continue;
 			   TimeOutForKeyPress[i]--;
 				if (TimeOutForKeyPress[i] == 0){
-				  KeyReg3[i] = NORMAL_STATE;
+				  //KeyReg3[i] = NORMAL_STATE;
+					if (KeyReg3[i] == PRESSED_STATE){
+						button_flag[i] = 1;
+					}
+					TimeOutForKeyPress[i] = 100;
 				}
 			}
 		  }
